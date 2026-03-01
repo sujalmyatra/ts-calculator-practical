@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Environment */
+    "module": "es6",
+    "target": "es2017",
+    "lib": ["es2017", "dom"],
+
+    /* Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Output */
+    "sourceMap": true,
+
+    /* Module Resolution */
+    "moduleResolution": "node",
+    "isolatedModules": true
+  },
+  "include": ["src/**/*"]
+}
